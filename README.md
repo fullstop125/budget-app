@@ -2,21 +2,16 @@
 
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/84629565/202665566-ba1a8ed3-041f-45bc-b21b-efdcc357189b.png" alt="logo" width="140"  height="auto" />
+  <img src="https://github.com/microverseinc/readme-template/raw/master/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [:card_index: Entity Relationship Diagram](#er-diagram)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -25,7 +20,6 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -34,27 +28,28 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Blog App <a name="about-project"></a>
-![blog-gif](https://ansarshome.files.wordpress.com/2021/09/d3464a4351fdf340ccb6bb37c281381a.gif)
+# 📖 BUDGET APP WITH ROR <a name="about-project"></a>
 
-**Blog App** will be a classic example of a blog website. You will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
+> this is a Budget App with Ruby on Rails, it allows you to create a user, create a group, create a transaction, you can also see the total amount of money spent in the group, and the total amount of money spent by each user, and the total amount of money spent by each user in the group.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+> The following tech stack was used:
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML, CSS</li>
-    <li>JavaScript</li>
+    <li><a href="https://reactjs.org/">Ruby</a></li>
+    <li><a href="https://reactjs.org/">Ruby On Rails</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li>Ruby on Rails</li>
+    <li><a href="https://expressjs.com/">Puma</a></li>
   </ul>
 </details>
 
@@ -65,90 +60,83 @@
   </ul>
 </details>
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **[Create and run necessary migration files]**
-- **[Match table and column names to the ERD diagram.]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ER DIAGRAM-->
-## :card_index: Entity Relationship Diagram <a name="er-diagram"></a>
-![er-diagram](https://user-images.githubusercontent.com/84629565/203113736-82dacec0-6b75-42e6-b87e-8bf441ffbe57.png)
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- in progress :smile: [Live Demo Link](https://yourdeployedapplicationlink.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
+
+> The Following is how you can use the Budget App
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-`Git` and `Ruby`
-```
- gem install rails
-```
+
+> Ruby version : `ruby 3.1.2p20`
+
+    run `ruby -v`
+
+> SQLite3 version : `3.40.0`
+
+    run `sqlite3 --version`
+
+> npm version : `8.15.0`
+
+    run `npm -v`
+
+> yarn version : `1.22.19`
+
+    run `yarn -v`
+
+> Database : **PostgreSQL**
+
+### Setup
+
+Clone this repository to your desired folder:
+
+> `git@github.com:fullstop125/budget-app.git`
 
 ### Install
 
 Install this project with:
 
-```sh
-  bundle install
-```
+> `bundler install`
 
 ### Usage
 
 To run the project, execute the following command:
 
+To Be able to run the project:
 
-```sh
-  rails server or rails s
-``` 
+`rails assets:precompile`
 
+Then To run it on the local host server use:
+
+`rails server` or `rails s`
+
+### Run tests
+
+To run tests, run the following command:
+
+`rspec spec`
+
+### Deployment
+
+Click [here](https://micro-finance.herokuapp.com/) to see live
+
+click [here](https://loom.com/share/9efa6b0ccfa849db9f5a746f592d5b30) to see the video presentation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-👤**Author Samiullah**
+> 👤 **Momanyi**
 
-- GitHub: [@samiullah997](https://github.com/samiullah997)
-- Twitter: [@samiullahk997](https://twitter.com/samiullahk997)
-- LinkedIn: [Samiullah Khan](https://www.linkedin.com/in/samiullah-khan-2702b7171/)
-
-👤 **Momanyi Hassan**
-
-- GitHub: [@fullstop125](https://github.com/fullstop125)
-- LinkedIn: [momanyi-hassan](https://linkedin.com/in/momanyi-hassan-32a489180)
-- Twitter: [@moseshassany](https://twitter.com/moseshassany)
-
+- GitHub: [@fullstop125 ](https://github.com/githubhandle)
+- Twitter: [@moses hassany](https://twitter.com/twitterhandle)
+- LinkedIn: [momanyi hassan](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Controllers specs]**
-- [ ] **[Processing data in models]**
-- [ ] **[Views]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -162,7 +150,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,31 +160,15 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank:
-- [Microverse](microverse.org)
-- Code Reviewers
-- [Vitor Guedes Madeira](https://github.com/VitorGuedesMadeira)
+
+Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Question_1d]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
