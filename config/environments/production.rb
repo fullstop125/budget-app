@@ -47,20 +47,24 @@ Rails.application.configure do
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
-
+# For production mail
+config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = { host: 'https://blooming-depths-30594.herokuapp.com/' }
+  config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => "gmail.com",
+      :user_name            => "railsmailkanu@gmail.com",
+      :password             => "railsmail!!",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+  }
   # Include generic and useful information about system operation, but avoid logging too much
   # information to avoid inadvertent exposure of personally identifiable information (PII).
   config.log_level = :info
 
   # Prepend all log lines with the following tags.
   config.log_tags = [ :request_id ]
-
-  # Use a different cache store in production.
-  # config.cache_store = :mem_cache_store
-
-  # Use a real queuing backend for Active Job (and separate queues per environment).
-  # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "budget_app_production"
 
   config.action_mailer.perform_caching = false
 
